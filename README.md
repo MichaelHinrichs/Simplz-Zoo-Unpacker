@@ -2,7 +2,7 @@
 A tool to unpack the windows depot of the steam version of Simplz Zoo's pack.bin file.<br>
 
 ## Download
-https://github.com/MichaelHinrichs/Simplz-Zoo-Unpacker/
+https://github.com/MichaelHinrichs/Simplz-Zoo-Unpacker/releases/
 
 <br>
 
