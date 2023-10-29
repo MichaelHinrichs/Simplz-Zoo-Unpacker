@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplz Zoo Unpacker", "Simplz Zoo Unpacker.csproj", "{FAD8D608-D383-4F06-83D7-89C8C9A87EBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD8D608-D383-4F06-83D7-89C8C9A87EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD8D608-D383-4F06-83D7-89C8C9A87EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD8D608-D383-4F06-83D7-89C8C9A87EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD8D608-D383-4F06-83D7-89C8C9A87EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE6A55BC-9D26-46BF-8B22-12570780EAA4}
+	EndGlobalSection
+EndGlobal
