@@ -13,7 +13,6 @@ namespace Simplz_Zoo_Unpacker
         {
             br = new BinaryReader(File.OpenRead(args[0]));
             string type = Encoding.ASCII.GetString(br.ReadBytes(br.ReadInt32()));
-            Directory.CreateDirectory(Path.GetDirectoryName(args[0]) + "\\" + Path.GetFileNameWithoutExtension(args[0]));
             System.Collections.Generic.List<Subfile> subfiles = new();
             while (br.BaseStream.Position < br.BaseStream.Length - 4)
             {
