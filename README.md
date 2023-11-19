@@ -19,7 +19,7 @@ A tool to unpack the windows depot of the steam version of Simplz Zoo's pack.bin
 ![Code Climate issues](https://img.shields.io/codeclimate/issues/MichaelHinrichs/Simplz-Zoo-Unpacker)
 ![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/MichaelHinrichs/Simplz-Zoo-Unpacker)
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/MichaelHinrichs/Simplz-Zoo-Unpacker)
-![GitHub search hit counter](https://img.shields.io/github/search/MichaelHinrichs/Simplz-Zoo-Unpacker/SPORE%20Creatures)
+![GitHub search hit counter](https://img.shields.io/github/search/MichaelHinrichs/Simplz-Zoo-Unpacker/Simplz%20Zoo)
 ![GitHub language count](https://img.shields.io/github/languages/top/MichaelHinrichs/Simplz-Zoo-Unpacker)
 ![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/MichaelHinrichs/Simplz-Zoo-Unpacker/main)
 
