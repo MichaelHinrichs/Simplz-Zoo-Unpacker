@@ -8,7 +8,6 @@ namespace Simplz_Zoo_Unpacker
     public static class Program
     {
         public static BinaryReader br;
-        public static BinaryWriter bw;
 
         static void Main(string[] args)
         {
@@ -20,7 +19,7 @@ namespace Simplz_Zoo_Unpacker
                 Subfile subfile = new();
                 Directory.CreateDirectory(Path.GetDirectoryName(Path.GetDirectoryName(args[0]) + "\\" + Path.GetFileNameWithoutExtension(args[0]) + "\\" + subfile.name));
 
-                    MemoryStream ms = new();
+                MemoryStream ms = new();
                 if (subfile.isCompressed == 0)
                 {
                     br.ReadInt16();
@@ -36,7 +35,7 @@ namespace Simplz_Zoo_Unpacker
                 BinaryReader msr = new(ms);
                 msr.BaseStream.Position = 0;
 
-                bw = new BinaryWriter(File.OpenWrite(Path.GetDirectoryName(args[0]) + "\\" + Path.GetFileNameWithoutExtension(args[0]) + "\\" + subfile.name));
+                BinaryWriter bw = new BinaryWriter(File.OpenWrite(Path.GetDirectoryName(args[0]) + "\\" + Path.GetFileNameWithoutExtension(args[0]) + "\\" + subfile.name));
                 bw.Write(msr.ReadBytes(subfile.sizeUncompressed));
                 msr.Close();
                 bw.Close();
